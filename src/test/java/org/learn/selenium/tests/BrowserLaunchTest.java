@@ -32,9 +32,6 @@ public class BrowserLaunchTest {
     public void launchBrowser(){
         // Navigate to a webpage
         driver.get("https://www.google.com");
-
-        // Close the browser
-        driver.quit();
     }
 
     @AfterMethod
